@@ -1,0 +1,14 @@
+#result {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+
+#result > * {
+    background-color: var(--background-secondary);
+    border-radius: 5px;
+    padding: 10px 20px;
+}
